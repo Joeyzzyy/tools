@@ -1,17 +1,16 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <InstallLinkGenerator msg="Welcome to Your Vue.js App"/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import InstallLinkGenerator from './components/InstallLinkGenerator.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    InstallLinkGenerator
   }
 }
 </script>
